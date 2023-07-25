@@ -86,7 +86,7 @@ def index(request):
         return HttpResponse("<h1>Thanks For Contact US</h1>")
        
 
-    return render(request, 'Landing Page.html', data)
+    return render(request, 'index.html', data)
 
 
 def account(request):
